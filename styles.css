@@ -1,0 +1,212 @@
+/*--------------------HTMLPage--------------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h2 {
+    letter-spacing: 3px;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.125rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 5.3125rem 5.3125rem 5.3125rem 5.3125rem;
+    width: 100%;
+  }
+  /*--------------------Home--------------------*/
+  #Home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("background.jpg") no-repeat center center fixed;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #logo {
+    width: 23.5%;
+    margin: 1.03vh;
+    border-radius: 50%;
+  }
+
+  #Home > span {
+    margin-bottom: 19.09vh;
+  }
+  
+  #Home button {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 4px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px;
+    width: 255px;
+    outline: none;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #Home button:hover {
+    color: black;
+  }
+
+  #contato {
+    background-color: pink;
+    border-color: white;
+  }
+  
+  #revista {
+    background: rgb(255, 183, 51);
+    border-color: white;
+  }
+  /*--------------------Contact--------------------*/
+  #Contact {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #Contact span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #Contact-Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #Contact-Details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 40rem;
+  }
+  
+  #Social-Links {
+    cursor: pointer;
+  }
+  
+  #Social-Links span:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: transform 0.25s ease-in;
+  }
+  
+  #Hours {
+    margin-top: 1.25rem;
+  }
+  
+  #Hours-Content p {
+    line-height: 34px;
+  }
+  
+  footer p {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding: 3.125rem 3.125rem 0rem 3.125rem;
+    margin-bottom: 1.5625rem;
+  }
+/*--------------------MediaQueries--------------------*/
+@media only screen and (max-width: 1200px) {
+    /*----------HTMLPage----------*/
+    h1 {
+      font-size: 2.25rem;
+    }
+  
+    h2 {
+      font-size: 2.75rem;
+    }
+  
+    h3 {
+      font-size: 1rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .container {
+      padding: 7.5em 3em 3em 3em;
+    }
+  
+    /*----------Home----------*/
+    #logo {
+      width: 20em;
+    }
+  
+    #Home {
+      background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("background-mobile.jpg");
+    
+    }
+  
+    #Home > span {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #Home button {
+      margin: 2.5px;
+    }
+
+    /*----------Contact----------*/
+  #Contact > h2 {
+    white-space: nowrap;
+  }
+  #Contact-Content {
+    flex-direction: column;
+  }
+  #Contact-Details {
+    width: 80vw;
+  }
+
+  iframe {
+    width: 80vw;
+    height: 20em;
+    margin-top: 5vw;
+  }
+
+  @media only screen and (max-width: 900px) {
+    /*----------HTMLPage----------*/
+    .container {
+      padding: 3em 3em 3em 3em;
+    }
+  }
+
+}
