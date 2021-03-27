@@ -172,7 +172,7 @@
   
     #Home {
       background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url("background-mobile.jpg");
+        url("background-mobile.jpg") no-repeat width 100%;
     
     }
   
