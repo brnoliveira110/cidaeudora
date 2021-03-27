@@ -90,10 +90,12 @@
     border-color: white;
   }
   
-  #revista {
+  #loja {
     background: rgb(255, 183, 51);
     border-color: white;
   }
+
+
   /*--------------------Contact--------------------*/
   #Contact {
     justify-content: space-evenly;
