@@ -71,7 +71,7 @@
     border-style: solid;
     border-width: 4px;
     text-align: center;
-    color: white;
+    color: rgb(54,54,54);
     font-weight: bold;
     font-size: 20px;
     height: 60px;
@@ -82,16 +82,21 @@
   }
 
   #Home button:hover {
-    color: black;
+    color: white;
   }
 
   #contato {
-    background-color: pink;
+    background-color: rgb(152,251,152);
     border-color: white;
   }
   
   #loja {
     background: rgb(255, 183, 51);
+    border-color: white;
+  }
+
+  #revista {
+    background: pink;
     border-color: white;
   }
 
